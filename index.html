@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style type="text/css">
+            .chat{
+                position: relative;
+                min-height: 45px;
+                width: 200px;
+                border-radius: 3px;
+                padding: 3px;
+                background-color: #eeeeee;
+                font-size: 14px;
+            }
+            .chat>p{
+                margin: 0;
+            }
+            .chat:before{
+                content: '';
+                position: absolute;
+                right: 100%;
+                top: 15px;
+                height: 0;
+                width: 0;
+                border: 7px solid transparent;
+                border-right: 7px solid #eeeeee;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="chat">
+        <p>白日依山尽，黄河入海流。欲穷千里目，更上一层楼。</p>
+    </div>
+    </body>
+    </html>
