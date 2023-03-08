@@ -15,7 +15,7 @@
 <!-- <script src="https://unpkg.com/element-ui/lib/index.js"></script> -->
 <body>
   <div id="app">
-    <el-input placeholder="Please input your token" v-model="userToken"></el-input>
+    <el-input placeholder="Please input your token" v-model="userToken" show-password></el-input>
     <div v-for="(item, index) in chatContent" :key="index">
       <el-row>
         <el-divider></el-divider>
